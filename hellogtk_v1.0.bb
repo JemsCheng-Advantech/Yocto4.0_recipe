@@ -32,6 +32,8 @@ do_compile () {
 
 do_install () {
 	# Specify install commands here
-	:
+	install -d ${D}${bindir}
+        install -m 0755 hellogtk ${D}${bindir}
 }
 
+FILES_${PN} += "${bindir}/hellogtk"
