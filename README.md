@@ -31,7 +31,7 @@ $ bitbake –s | grep gtk
  
 10. Bitbake recipe:
 $ bitbake hellogtk
-It can find the binary file at: ${WORKDIR}
+Then it can find the binary file at: ${WORKDIR}
 
 11. Or you can build the application with devshell
 $ biitbake hellogtk –c devshell 
