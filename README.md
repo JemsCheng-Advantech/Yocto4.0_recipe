@@ -37,6 +37,3 @@ It can find the binary file at: ${WORKDIR}
 $ biitbake hellogtk –c devshell 
 # make
  
-
-
-
